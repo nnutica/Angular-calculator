@@ -1,0 +1,48 @@
+/* Navbar Container */
+.navbar {
+    background-color: #f0a4a4; /* สีพื้นหลัง */
+    padding: 15px;
+  
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between; /* จัดการตำแหน่งระหว่าง brand กับเมนู */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* จัดกึ่งกลาง */
+  }
+  
+  /* Navbar Brand */
+  .navbar-brand {
+    color: #fff; /* สีตัวอักษร */
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+ 
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+  
+  
+  .navbar-link {
+    color: #fff; 
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    background-color: #4df1fd; 
+    border-radius: 5px; 
+  }
+  
