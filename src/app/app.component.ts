@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { NavbarComponent } from './navbar/navbar.component'; 
-import { NgmodelComponent } from './ngmodel/ngmodel.component';
+
 
  
 @Component({
@@ -9,7 +9,7 @@ import { NgmodelComponent } from './ngmodel/ngmodel.component';
   templateUrl: './app.component.html',
   styleUrl:'./app.component.css',
   standalone: true,
-  imports:[CalculatorComponent,NavbarComponent,NgmodelComponent]
+  imports:[CalculatorComponent,NavbarComponent],
 })
 export class AppComponent {
   title(title: any) {

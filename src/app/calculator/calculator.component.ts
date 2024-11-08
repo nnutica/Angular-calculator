@@ -23,7 +23,8 @@ export class CalculatorComponent {
 
   calculate() {
     try {
-      this.displayValue = eval(this.displayValue);
+      
+      this.displayValue = new Function(`return ${this.displayValue}`)();
     } catch (error) {
       this.displayValue = 'Error';
     }
